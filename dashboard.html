@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dashboard | EarnWeb</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="navbar">
+    <h2>EarnWeb Dashboard</h2>
+    <a href="withdraw.html">Withdraw</a>
+    <a href="referral.html">Referral</a>
+    <a href="index.html" onclick="logout()">Logout</a>
+  </div>
+  <div class="content">
+    <h3>Welcome, <span id="userEmail"></span></h3>
+    <p>Balance: <strong><span id="userBalance">0</span> ৳</strong></p>
+    <h4>Your Tasks</h4>
+    <ul id="taskList"></ul>
+  </div>
+  <script src="js/dashboard.js"></script>
+</body>
+</html>
